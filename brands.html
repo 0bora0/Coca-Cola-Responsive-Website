@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Марки</title>
+    <meta name="keywords" content="Achievements, Coca-Cola">
+    <meta name="description" content="Coca-Cola achievements page containing information about company milestones">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="https://companieslogo.com/img/orig/KO-b23a2a5e.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="home.html"><img src="/images/logo2.png" alt="" width="150"
+                        height="50"></a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="home.html">Начало</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Кампании</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Cherry Magic</a></li>
+                                <li><a class="dropdown-item" href="#">Сподели магията на Coca-Cola за Коледа 2024г.</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Sprite Spicy</a></li>
+                                <li><a class="dropdown-item" href="#">Фанта портокал без захар</a></li>
+                                <li><a class="dropdown-item" href="#">Coca-Cola App</a></li>
+                                <li><a class="dropdown-item" href="#">FuzeTea Лайм и Мента</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="./brands.html">Марки</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Свържете се с нас</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#mainModal">
+                                <i class="bi bi-person-fill"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="container mt-5">
+            <h2 class="text-center">Нашите марки</h2>
+            <p class="text-center">Изберете опция, за да приложите начин на сортиране</p>
+
+            <div class="dropdown text-center mb-4">
+                <button class="btn btn-outline-danger dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Изберете начин на филтриране
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li>
+                        <div class="form-check mx-3">
+                            <input class="form-check-input" type="radio" name="filterOptions" id="option1" checked>
+                            <label class="form-check-label" for="option1">
+                                Всички
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-check mx-3">
+                            <input class="form-check-input" type="radio" name="filterOptions" id="option2">
+                            <label class="form-check-label" for="option2">
+                                Вода
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-check mx-3">
+                            <input class="form-check-input" type="radio" name="filterOptions" id="option3">
+                            <label class="form-check-label" for="option3">
+                                Спортни напитки
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-check mx-3">
+                            <input class="form-check-input" type="radio" name="filterOptions" id="option4">
+                            <label class="form-check-label" for="option4">
+                                Без захар
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-check mx-3">
+                            <input class="form-check-input" type="radio" name="filterOptions" id="option5">
+                            <label class="form-check-label" for="option5">
+                                Газирани напитки
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-check mx-3">
+                            <input class="form-check-input" type="radio" name="filterOptions" id="option6">
+                            <label class="form-check-label" for="option6">
+                                Незагазирани напитки
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="form-check mx-3">
+                            <input class="form-check-input" type="radio" name="filterOptions" id="option7">
+                            <label class="form-check-label" for="option7">
+                                Без кофеин
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://www.coca-cola.com/content/dam/onexp/bg/bg/homeimage/brands/coca-cola/bg_coca_cola_logo_500x180.png"
+                            class="img-fluid p-5 w-100 h-100" style="object-fit: contain;" alt="">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://www.coca-cola.com/content/dam/onexp/bg/bg/brand-cappy/bgl_cappy_logo_500x180.png"
+                            class="img-fluid p-5 w-100 h-100" style="object-fit: contain;" alt="Coca-Cola Без Захар">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://www.coca-cola.com/content/dam/onexp/bg/bg/home-images/fuzetea/bg_fuze_tea_logo_180x180.png"
+                            class="img-fluid p-5 w-100 h-100" style="object-fit: contain;"
+                            alt="Coca-Cola Без Захар Лимон">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://www.coca-cola.com/content/dam/onexp/bg/bg/brands/coca-cola-bez-zahar-limon/H268806_P631852_TCCC-BG-CZ-TXDriver-SoMe-23_1080x1080px_Digital-2.png"
+                            class="img-fluid p-5 w-100 h-100" style="object-fit: contain;"
+                            alt="Coca-Cola Без Захар Лимон">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://www.coca-cola.com/content/dam/onexp/bg/bg/home-images/fanta/bg_fanta_logo_238x180%202.png"
+                            class="img-fluid p-5 w-100 h-100" style="object-fit: contain;"
+                            alt="Coca-Cola Без Захар Лимон">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://www.coca-cola.com/content/dam/onexp/bg/bg/home-images/sprite/bg_sprite1_logo_colored_207x180_v1.png"
+                            class="img-fluid p-5 w-100 h-100" style="object-fit: contain;"
+                            alt="Coca-Cola Без Захар Лимон">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://www.coca-cola.com/content/dam/onexp/bg/bg/brands/schweppes/ie_schweppes_logo_180x180.png"
+                            class="img-fluid p-5 w-100 h-100" style="object-fit: contain;"
+                            alt="Coca-Cola Без Захар Лимон">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://www.coca-cola.com/content/dam/onexp/bg/bg/brands/bankya/bankya/bg_bahkr_logo_color_288x180_v1.png"
+                            class="img-fluid p-5 w-100 h-100" style="object-fit: contain;"
+                            alt="Coca-Cola Без Захар Лимон">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://www.coca-cola.com/content/dam/onexp/bg/bg/brands/rosa/rosa/rosa-logo-color_319x180.png"
+                            class="img-fluid p-5 w-100 h-100" style="object-fit: contain;"
+                            alt="Coca-Cola Без Захар Лимон">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="brands-section py-5 mt-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start d-none d-md-block">
+                    <h2 class="display-4 fw-bold mb-4">
+                        Нашите партньори и брандове
+                    </h2>
+                    <p class="lead mb-4">
+                        С гордост представяме нашите партньори, с които създаваме успешни и иновативни решения.
+                    </p>
+                    <a href="https://www.coca-cola.com/bg/bg" class="btn btn-danger rounded-pill px-4 py-2 shadow-lg">
+                        <i class="bi bi-arrow-right-circle me-2"></i> Разгледайте повече
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <div class="row row-cols-2 row-cols-md-4 g-4">
+                        <div class="col-6 col-lg-3">
+                            <div class="brand-logo d-flex justify-content-center align-items-center bg-white shadow-sm">
+                                <img src="https://www.netlaw.bg/p/l/o/logo-ja-bulgaria-107-450x0.png" alt="Logo 1"
+                                    class="img-fluid brand-img">
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="brand-logo d-flex justify-content-center align-items-center bg-white shadow-sm">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9AhtqzNOKtkjMdZnVK14WFMit06yf6PiDNw&s"
+                                    alt="Logo 2" class="img-fluid brand-img">
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="brand-logo d-flex justify-content-center align-items-center bg-white shadow-sm">
+                                <img src="https://edu2030.bg/wp-content/themes/goodsimple/images/logo.png" alt="Logo 3"
+                                    class="img-fluid brand-img">
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="brand-logo d-flex justify-content-center align-items-center bg-white shadow-sm">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVkFGJbhy5yIt4ruiU7alfCy7kPPf6bzv1uA&s"
+                                    alt="Logo 4" class="img-fluid brand-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-white pt-5 pb-3 mt-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <h5 class="fw-bold text-uppercase">The Coca-Cola Company</h5>
+                    <p class="mb-0">
+                        &copy; 2024 <a href="https://www.coca-cola.bg"
+                            class="text-danger text-decoration-none">Coca-Cola</a>. Всички права са запазени.
+                    </p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="https://www.facebook.com/cocacolabulgaria/?locale=bg_BG" class="text-white mx-2"><i
+                            class="bi bi-facebook fs-4"></i></a>
+                    <a href="https://www.instagram.com/cocacolabulgaria/?hl=bg" class="text-white mx-2"><i
+                            class="bi bi-instagram fs-4"></i></a>
+                    <a href="https://twitter.com/CocaCola?" class="text-white mx-2"><i
+                            class="bi bi-twitter fs-4"></i></a>
+                    <a href="https://www.linkedin.com/company/the-coca-cola-company" class="text-white mx-2"><i
+                            class="bi bi-linkedin fs-4"></i></a>
+                </div>
+            </div>
+            <hr class="my-4 border-light">
+            <div class="row d-none d-md-flex">
+                <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+                    <ul class="list-unstyled">
+                        <li><a href="https://www.coca-cola.com/bg/bg" class="text-white text-decoration-none">Политика
+                                за поверителност</a></li>
+                        <li><a href="https://www.coca-cola.com/bg/bg" class="text-white text-decoration-none">Общи
+                                условия</a></li>
+                        <li><a href="https://www.coca-cola.com/bg/bg"
+                                class="text-white text-decoration-none">Контакти</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-center">
+                    <small>Създадено с любов от The Coca-Cola Team</small>
+                </div>
+                <div class="col-md-4 text-center text-md-end">
+                    <small>Последвайте ни:</small>
+                    <a href="https://www.youtube.com/user/cocacola" class="text-white mx-1"><i
+                            class="bi bi-youtube"></i></a>
+                    <a href="https://www.pinterest.com/cocacola/" class="text-white mx-1"><i
+                            class="bi bi-pinterest"></i></a>
+                    <a href="https://www.tiktok.com/@cocacola" class="text-white mx-1"><i class="bi bi-tiktok"></i></a>
+                </div>
+            </div>
+            <div class="row d-md-none">
+                <div class="col-12 text-center">
+                    <small>Създадено с любов от The Coca-Cola Team</small>
+                </div>
+                <div class="col-12 text-center mt-3">
+                    <small>Последвайте ни:</small>
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <a href="#" class="text-white mx-1 mb-2"><i class="bi bi-youtube"></i></a>
+                        <a href="#" class="text-white mx-1 mb-2"><i class="bi bi-pinterest"></i></a>
+                        <a href="#" class="text-white mx-1 mb-2"><i class="bi bi-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Main Modal -->
+    <div class="modal fade" id="mainModal" tabindex="-1" aria-labelledby="mainModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="mainModalLabel">Искате персонализирано преживяване и достъп до
+                        ексклузивно съдържание?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row g-2">
+                        <div class="col-12 col-md">
+                            <button class="btn btn-danger w-100 rounded-pill shadow-sm px-4 py-2"
+                                data-bs-target="#loginModal" data-bs-toggle="modal">Вход</button>
+                        </div>
+                        <div class="col-12 col-md">
+                            <button class="btn btn-outline-success  w-100 rounded-pill shadow-sm px-4 py-2"
+                                data-bs-target="#registerModal" data-bs-toggle="modal">Регистрация</button>
+                        </div>
+                        <div class="col-12 col-md">
+                            <button
+                                class="btn btn-light btn-outline-warning text-dark w-100 rounded-pill shadow-sm px-4 py-2 d-flex align-items-center justify-content-center"
+                                data-bs-target="#login1Modal" data-bs-toggle="modal">
+                                <img src="https://img.icons8.com/color/48/000000/google-logo.png" alt="Google Logo"
+                                    class="me-2" width="24" height="24">
+                                <span>Администратори</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content shadow-lg border-0">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title d-flex align-items-center">
+                        <i class="bi bi-person-plus-fill me-2"></i> Вход
+                    </h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-4 position-relative">
+                            <label class="form-label fw-bold">
+                                <i class="bi bi-envelope-fill text-primary me-1"></i> Имейл адрес
+                            </label>
+                            <input type="email" class="form-control form-control-lg rounded-pill"
+                                placeholder="example@email.com" required>
+                        </div>
+                        <div class="mb-4 position-relative">
+                            <label class="form-label fw-bold">
+                                <i class="bi bi-lock-fill text-primary me-1"></i>Парола
+                            </label>
+                            <input type="password" class="form-control form-control-lg rounded-pill"
+                                placeholder="********" required>
+                        </div>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-outline-primary btn-lg rounded-pill shadow">
+                                <i class="bi bi-check-circle-fill me-1"></i> Влез в профила
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Register Modal -->
+    <div class="modal fade" id="registerModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content shadow-lg border-0">
+                <div class="modal-header bg-danger text-white">
+                    <h5 class="modal-title d-flex align-items-center">
+                        <i class="bi bi-person-plus-fill me-2 text-danger"></i> Регистрация
+                    </h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-4 position-relative">
+                            <label class="form-label fw-bold">
+                                <i class="bi bi-envelope-fill text-danger me-1"></i> Имейл адрес
+                            </label>
+                            <input type="email" class="form-control form-control-lg rounded-pill"
+                                placeholder="example@email.com" required>
+                        </div>
+                        <div class="mb-4 position-relative">
+                            <label class="form-label fw-bold">
+                                <i class="bi bi-lock-fill text-danger me-1"></i> Парола
+                            </label>
+                            <input type="password" class="form-control form-control-lg rounded-pill"
+                                placeholder="********" required>
+                        </div>
+                        <div class="mb-4 position-relative">
+                            <label class="form-label fw-bold">
+                                <i class="bi bi-lock-fill text-danger me-1"></i> Потвърдете паролата
+                            </label>
+                            <input type="password" class="form-control form-control-lg rounded-pill"
+                                placeholder="********" required>
+                        </div>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-outline-danger btn-lg rounded-pill shadow">
+                                <i class="bi bi-check-circle-fill me-1"></i> Регистрация
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Admin Modal -->
+    <div class="modal fade" id="login1Modal" tabindex="-1" aria-labelledby="login1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content shadow-lg border-0">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title d-flex align-items-center w-100 text-center" id="login1ModalLabel">
+                        <i class="bi bi-box-arrow-in-right me-2"></i> Вход
+                    </h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="text-center py-3 bg-light">
+                    <span>
+                        Продължаване като <span class="fw-bold text-primary">@coca-cola.bg</span> ?
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="input-group mb-4">
+                            <span class="input-group-text bg-primary text-white rounded-start-pill">
+                                <i class="bi bi-person-fill"></i>
+                            </span>
+                            <input type="text" class="form-control rounded-0" placeholder="Вашият имейл"
+                                aria-label="Username">
+                            <span class="input-group-text bg-primary text-white">
+                                @
+                            </span>
+                            <input type="text" class="form-control rounded-end-pill" value="coca-cola.bg"
+                                aria-label="Server">
+                        </div>
+                        <div class="mb-4 position-relative">
+                            <label for="loginPassword" class="form-label visually-hidden">Парола</label>
+                            <input type="password" class="form-control form-control-lg rounded-pill" id="loginPassword"
+                                placeholder="Парола" required>
+                        </div>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill shadow">
+                                <i class="bi bi-door-open-fill me-1"></i> Вход
+                            </button>
+                        </div>
+                    </form>
+                    <div class="text-center mt-4">
+                        <a href="edit-page.html" class="text-decoration-none">Забравена парола?</a>
+                    </div>
+                </div>
+                <div class="modal-footer border-0 text-center">
+                    <p class="w-100">Нямате акаунт? <a href="#" data-bs-target="#registerModal" data-bs-toggle="modal"
+                            class="text-primary">Регистрирайте се</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+</body>
+
+</html>

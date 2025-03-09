@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="https://companieslogo.com/img/orig/KO-b23a2a5e.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="home.html"><img src="/images/logo2.png" alt="" width="150"
+                        height="50"></a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="home.html">Начало</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Кампании</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Cherry Magic</a></li>
+                                <li><a class="dropdown-item" href="#">Сподели магията на Coca-Cola за Коледа 2024г.</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Sprite Spicy</a></li>
+                                <li><a class="dropdown-item" href="#">Фанта портокал без захар</a></li>
+                                <li><a class="dropdown-item" href="#">Coca-Cola App</a></li>
+                                <li><a class="dropdown-item" href="#">FuzeTea Лайм и Мента</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="./brands.html">Марки</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Свържете се с нас</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#mainModal">
+                                <i class="bi bi-person-fill"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 mb-4">
+                    <h2 class="mb-4">Свържете се с нас</h2>
+                    <form>
+                        <div class="mb-3">
+                            <label for="fname" class="form-label">Първо име</label>
+                            <input type="text" class="form-control" id="fname" name="firstname" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="lname" class="form-label">Последно име</label>
+                            <input type="text" class="form-control" id="lname" name="lastname" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="city" class="form-label">Град</label>
+                            <select class="form-select" id="city" name="city">
+                                <option value="Sofia">София</option>
+                                <option value="Plovdiv">Пловдив</option>
+                                <option value="Varna">Варна</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Съобщение</label>
+                            <textarea class="form-control" id="subject" name="subject" rows="5" required></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-danger">Изпрати</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <h2 class="mb-4">Нашето местоположение</h2>
+                    <div class="mb-4 text-danger fw-bold"><i class="bi bi-geo-alt text-danger"></i> Улица "Съборни" 46,
+                        Варна, Пощенски код: 9000, България</div>
+                    <div class="ratio ratio-16x9">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2908.1376332598734!2d27.90378897463237!3d43.20660248120312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a4538adde39fef%3A0x141e4f173b50ee40!2z0JPQoNCQ0J3QlA!5e0!3m2!1sbg!2sbg!4v1734295536108!5m2!1sbg!2sbg"
+                            width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="bg-dark text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <h5 class="fw-bold text-uppercase">The Coca-Cola Company</h5>
+                    <p class="mb-0">
+                        &copy; 2024 <a href="https://www.coca-cola.bg"
+                            class="text-danger text-decoration-none">Coca-Cola</a>. Всички права са запазени.
+                    </p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="https://www.facebook.com/cocacolabulgaria/?locale=bg_BG" class="text-white mx-2"><i
+                            class="bi bi-facebook fs-4"></i></a>
+                    <a href="https://www.instagram.com/cocacolabulgaria/?hl=bg" class="text-white mx-2"><i
+                            class="bi bi-instagram fs-4"></i></a>
+                    <a href="https://twitter.com/CocaCola?" class="text-white mx-2"><i
+                            class="bi bi-twitter fs-4"></i></a>
+                    <a href="https://www.linkedin.com/company/the-coca-cola-company" class="text-white mx-2"><i
+                            class="bi bi-linkedin fs-4"></i></a>
+                </div>
+            </div>
+            <hr class="my-4 border-light">
+            <div class="row d-none d-md-flex">
+                <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+                    <ul class="list-unstyled">
+                        <li><a href="https://www.coca-cola.com/bg/bg" class="text-white text-decoration-none">Политика
+                                за поверителност</a></li>
+                        <li><a href="https://www.coca-cola.com/bg/bg" class="text-white text-decoration-none">Общи
+                                условия</a></li>
+                        <li><a href="https://www.coca-cola.com/bg/bg"
+                                class="text-white text-decoration-none">Контакти</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-center">
+                    <small>Създадено с любов от The Coca-Cola Team</small>
+                </div>
+                <div class="col-md-4 text-center text-md-end">
+                    <small>Последвайте ни:</small>
+                    <a href="https://www.youtube.com/user/cocacola" class="text-white mx-1"><i
+                            class="bi bi-youtube"></i></a>
+                    <a href="https://www.pinterest.com/cocacola/" class="text-white mx-1"><i
+                            class="bi bi-pinterest"></i></a>
+                    <a href="https://www.tiktok.com/@cocacola" class="text-white mx-1"><i class="bi bi-tiktok"></i></a>
+                </div>
+            </div>
+            <div class="row d-md-none">
+                <div class="col-12 text-center">
+                    <small>Създадено с любов от The Coca-Cola Team</small>
+                </div>
+                <div class="col-12 text-center mt-3">
+                    <small>Последвайте ни:</small>
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <a href="#" class="text-white mx-1 mb-2"><i class="bi bi-youtube"></i></a>
+                        <a href="#" class="text-white mx-1 mb-2"><i class="bi bi-pinterest"></i></a>
+                        <a href="#" class="text-white mx-1 mb-2"><i class="bi bi-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Main Modal -->
+    <div class="modal fade" id="mainModal" tabindex="-1" aria-labelledby="mainModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="mainModalLabel">Искате персонализирано преживяване и достъп до
+                        ексклузивно съдържание?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row g-2">
+                        <div class="col-12 col-md">
+                            <button class="btn btn-danger w-100 rounded-pill shadow-sm px-4 py-2"
+                                data-bs-target="#loginModal" data-bs-toggle="modal">Вход</button>
+                        </div>
+                        <div class="col-12 col-md">
+                            <button class="btn btn-outline-success  w-100 rounded-pill shadow-sm px-4 py-2"
+                                data-bs-target="#registerModal" data-bs-toggle="modal">Регистрация</button>
+                        </div>
+                        <div class="col-12 col-md">
+                            <button
+                                class="btn btn-light btn-outline-warning text-dark w-100 rounded-pill shadow-sm px-4 py-2 d-flex align-items-center justify-content-center"
+                                data-bs-target="#login1Modal" data-bs-toggle="modal">
+                                <img src="https://img.icons8.com/color/48/000000/google-logo.png" alt="Google Logo"
+                                    class="me-2" width="24" height="24">
+                                <span>Администратори</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content shadow-lg border-0">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title d-flex align-items-center" id="loginModalLabel">
+                        <i class="bi bi-person-plus-fill me-2"></i> Вход
+                    </h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-4 position-relative">
+                            <label for="registerEmail" class="form-label fw-bold">
+                                <i class="bi bi-envelope-fill text-primary me-1"></i> Имейл адрес
+                            </label>
+                            <input type="email" class="form-control form-control-lg rounded-pill" id="registerEmail"
+                                placeholder="example@email.com" required>
+                        </div>
+                        <div class="mb-4 position-relative">
+                            <label class="form-label fw-bold">
+                                <i class="bi bi-lock-fill text-primary me-1"></i>Парола
+                            </label>
+                            <input type="password" class="form-control form-control-lg rounded-pill"
+                                placeholder="********" required>
+                        </div>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-outline-primary btn-lg rounded-pill shadow">
+                                <i class="bi bi-check-circle-fill me-1"></i> Влез в профила
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Register Modal -->
+    <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content shadow-lg border-0">
+                <div class="modal-header bg-danger text-white">
+                    <h5 class="modal-title d-flex align-items-center" id="registerModalLabel">
+                        <i class="bi bi-person-plus-fill me-2 text-danger"></i> Регистрация
+                    </h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-4 position-relative">
+                            <label for="registerEmail" class="form-label fw-bold">
+                                <i class="bi bi-envelope-fill text-danger me-1"></i> Имейл адрес
+                            </label>
+                            <input type="email" class="form-control form-control-lg rounded-pill"
+                                placeholder="example@email.com" required>
+                        </div>
+                        <div class="mb-4 position-relative">
+                            <label class="form-label fw-bold">
+                                <i class="bi bi-lock-fill text-danger me-1"></i> Парола
+                            </label>
+                            <input type="password" class="form-control form-control-lg rounded-pill"
+                                placeholder="********" required>
+                        </div>
+                        <div class="mb-4 position-relative">
+                            <label for="registerConfirmPassword" class="form-label fw-bold">
+                                <i class="bi bi-lock-fill text-danger me-1"></i> Потвърдете паролата
+                            </label>
+                            <input type="password" class="form-control form-control-lg rounded-pill"
+                                id="registerConfirmPassword" placeholder="********" required>
+                        </div>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-outline-danger btn-lg rounded-pill shadow">
+                                <i class="bi bi-check-circle-fill me-1"></i> Регистрация
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Admin Modal -->
+    <div class="modal fade" id="login1Modal" tabindex="-1" aria-labelledby="login1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content shadow-lg border-0">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title d-flex align-items-center w-100 text-center" id="login1ModalLabel">
+                        <i class="bi bi-box-arrow-in-right me-2"></i> Вход
+                    </h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="text-center py-3 bg-light">
+                    <span>
+                        Продължаване като <span class="fw-bold text-primary">@coca-cola.bg</span> ?
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="input-group mb-4">
+                            <span class="input-group-text bg-primary text-white rounded-start-pill">
+                                <i class="bi bi-person-fill"></i>
+                            </span>
+                            <input type="text" class="form-control rounded-0" placeholder="Вашият имейл"
+                                aria-label="Username">
+                            <span class="input-group-text bg-primary text-white">
+                                @
+                            </span>
+                            <input type="text" class="form-control rounded-end-pill" value="coca-cola.bg"
+                                aria-label="Server">
+                        </div>
+                        <div class="mb-4 position-relative">
+                            <label for="loginPassword" class="form-label visually-hidden">Парола</label>
+                            <input type="password" class="form-control form-control-lg rounded-pill" id="loginPassword"
+                                placeholder="Парола" required>
+                        </div>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill shadow">
+                                <i class="bi bi-door-open-fill me-1"></i> Вход
+                            </button>
+                        </div>
+                    </form>
+                    <div class="text-center mt-4">
+                        <a href="edit-page.html" class="text-decoration-none">Забравена парола?</a>
+                    </div>
+                </div>
+                <div class="modal-footer border-0 text-center">
+                    <p class="w-100">Нямате акаунт? <a href="#" data-bs-target="#registerModal" data-bs-toggle="modal"
+                            class="text-primary">Регистрирайте се</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
